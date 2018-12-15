@@ -206,7 +206,7 @@ function initMap() {
 		const marker = new google.maps.Marker({
 			position: center,
 			map: baMap,
-			icon: '../img/Pin.png',
+			icon: './img/Pin.png',
 			animation: google.maps.Animation.DROP
 		});
 }
